@@ -1,0 +1,9 @@
+@import url("https://raw.githubusercontent.com/birowsi/cookie-font/refs/heads/main/cookie.css");
+
+:root {
+  --Font: 'CookieRun';
+}
+
+*:not([class*="hljs"]):not(code){
+  font-family: var(--Font), sans-serif !important;
+}
